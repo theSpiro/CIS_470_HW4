@@ -10,4 +10,4 @@ docker build -t hello_world .
 docker run -p 5000:5000 hello_world
 
 ### Run the container using custom name
-docker run --name <insert_your_custom_name_here> hello_world
+docker run --name <insert_your_custom_name_here> -p 5000:5000 hello_world
